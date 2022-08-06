@@ -4,21 +4,21 @@ type Token = {
 
 
 /** Terminology used, Edges, Vertices is from graph theory. */
-const Edge: Token = {
-  ACTOR: 'actor',
-  DATABASE: 'database',
-  COMPONENT: 'component',
-  SERVICE: 'service',
-  UI: 'ui'
+export const Edge: Token = {
+  'ACTOR': 'actor',
+  'DATABASE': 'database',
+  'COMPONENT': 'component',
+  'SERVICE': 'service',
+  'UI': 'ui'
 }
 
-const Vertex: Token = {
+export const Vertex: Token = {
   CONNECTOR_TO: '-->',
   CONNECTOR_FROM: '<--',
   CONNECTOR_BI: '<-->'
 }
 
-const Operator: Token = {
+export const Operator: Token = {
   VERT_DELIM: ':',
   OPEN_NOTE: '(',
   CLOSE_NOTE: ')',
@@ -27,12 +27,7 @@ const Operator: Token = {
 }
 
 
-export const Tokens: any = {
-  Edge,
-  Operator,
-  Vertex
-}
-
+/*
 export const isToken = function(text: string){
   for (let k in Tokens){
     if (Tokens !== null && typeof Tokens === 'object') {
@@ -44,3 +39,4 @@ export const isToken = function(text: string){
   }
 }
 
+*/
