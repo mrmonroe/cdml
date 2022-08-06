@@ -131,3 +131,5 @@ dist
 
 mochawesome-report/
 .vscode/
+types/
+lib/
